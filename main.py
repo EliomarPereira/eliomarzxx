@@ -62,7 +62,6 @@ with st.container():
 with st.container():
 
     st.write("TON COLHIDAS POR FRENTE")
-    st.pyplot()
 
     producao = dados[dados['Produção Real (TON)'] > 0]
 
