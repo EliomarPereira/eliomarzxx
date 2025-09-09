@@ -13,7 +13,7 @@ st.set_page_config(layout='wide', initial_sidebar_state='auto')
 
 def Infos_safra(): 
     st.title("INFORMAÇÕES DA SAFRA") 
-    col1, col2 = st.columns(1)
+    col1, col2 = st.columns(2)
     def percentual_safra():
         prod_estimada = df['Produção (TON)'].sum()
         prod_real = df['Produção Real (TON)'].sum()
